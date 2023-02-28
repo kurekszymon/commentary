@@ -1,4 +1,4 @@
-# Project
+# Commentary
 
 This project was my another take on becoming rich and famous, and it did fail like many others. However this time I think it was different as I was able to try to reach out to some customers (first time lol, felt nice). 
 
