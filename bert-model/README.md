@@ -1,5 +1,10 @@
 # Engaged Creator 
 
+Project based on Flask and Transformers library to train model. 
+I used Bert Model (pretrained `kleczek/bert-base-polish-cased-v1`), trained further with my own datasets, as it was in my opinion best suited for the case like this. 
+
+Using pyenv, as tensorflow doesn't have stable version for python version > 3.10.9
+
 ## Training Model 
 
 To train model run `python3 training/train_model.py`
