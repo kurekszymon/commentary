@@ -1,0 +1,41 @@
+version: '3.4'
+
+services:
+  server:
+    image: nginx
+    volumes:
+      - ./frontend/dist:/usr/share/nginx/html
+    ports:
+      - 80:80
+
+  model:
+    image: commentary/model
+    depends_on:
+      - server
+    build:
+      context: ./bert-model
+    ports:
+      - 5002:5002
+
+  database:
+    image: postgres
+    depends_on:
+      - server
+    ports:
+      - 5432:5432
+    restart: always
+    environment:
+      POSTGRES_USER: docker
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: postgres 
+
+  backend:
+    depends_on:
+      - server
+      - model
+      - database
+    image: commentary/backend
+    build:
+      context: ./backend
+    ports:
+      - 5003:5003

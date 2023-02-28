@@ -1,0 +1,125 @@
+{
+  "comments": [
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCH-syFvxNpUB13Qve4-4liA",
+          "name": "ojwojtek"
+        },
+        "likes": 143,
+        "publishedAt": "2022-12-29T13:52:13Z",
+        "text": "Odcinki codziennie o 16 a ka\u017cda subskrypcja i follow na <a href=\"http://instagram.com/ojwojtek\">instagram.com/ojwojtek</a> to +10gr na <a href=\"http://zrzutka.pl/podarujwakacje\">zrzutka.pl/podarujwakacje</a> Moje zak\u0142ady z Japonii znajdziecie na stronie BETFAN w zak\u0142adce: rozrywka! Oferta tylko przez pierwsze 3 dni serii."
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCGlORBYvANqBNGb57dfOjTg",
+          "name": "Radioaktywny \u015aled\u017a"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-15T00:49:50Z",
+        "text": "Kurde, Wojtek, naucz si\u0119 w ko\u0144cu, \u017ce jak kto\u015b dla Ciebie sam z siebie robi co\u015b dobrego, to nie nale\u017cy by\u0107 skr\u0119powanym, a trzeba dzi\u0119kowa\u0107 i tyle."
+      },
+      "sentiment": "negative"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UC-a__idm65XyUCGWpmqxzfw",
+          "name": "Przemo Zadymiasz"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-14T13:53:31Z",
+        "text": "such a good video"
+      },
+      "sentiment": "positive"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCVrSyJDprbPNFFp9_xEP5WQ",
+          "name": "Filip211 Martis"
+        },
+        "likes": 1,
+        "publishedAt": "2023-01-09T17:35:25Z",
+        "text": "naprawde sie rozwin\u0105\u0142e\u015b i jest to twoj najlepszy moment twojej kariery"
+      },
+      "sentiment": "positive"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCA40l57CF4cXZbcmRpCekOQ",
+          "name": "fan piwnica"
+        },
+        "likes": 1,
+        "publishedAt": "2023-01-09T13:40:58Z",
+        "text": "troche ustawka?"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCpaNKT_vXio5Ddeyxfd5I8w",
+          "name": "PRESaltANDf4"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-07T19:43:20Z",
+        "text": "Kurwa ale \u017ce ludzie w japoni sa tacy zajebi\u015bci?"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCIOTZRUReay4iFlwOvrGzEA",
+          "name": "Shnanek04"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-07T19:28:47Z",
+        "text": "Po tych zachowaniach tych mega \u015bwietnych ludzi z japoni przestane m\u00f3wi\u0107 ching chiang chiong"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCZk-0D2ade4Y2xb-TyyGS7Q",
+          "name": "aleksandra twardowska"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-07T13:49:58Z",
+        "text": "elo  elo elo elo elo elo elo elo elo"
+      },
+      "sentiment": "neutral"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UC30MWcjsrH4LNHm0sr_2Cng",
+          "name": "Dawid Sa\u0142ata"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-06T20:41:29Z",
+        "text": "Fajnie wszystko ale za bardzo pokazujecie siebie niz to co sie tam dzieje"
+      },
+      "sentiment": "positive"
+    },
+    {
+      "comment": {
+        "author": {
+          "channel": "http://www.youtube.com/channel/UCJ7HOFRrH_v-jHqpSVIK0bQ",
+          "name": "Maiki"
+        },
+        "likes": 0,
+        "publishedAt": "2023-01-06T19:02:56Z",
+        "text": "kocham Japoni\u0119."
+      },
+      "sentiment": "positive"
+    }
+  ],
+  "ratio": { "negative": 10.0, "neutral": 50.0, "positive": 40.0 }
+}

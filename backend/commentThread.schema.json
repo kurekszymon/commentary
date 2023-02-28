@@ -1,0 +1,31 @@
+{
+  "kind": "youtube#commentThread",
+  "etag": "RfZKd594z8S00Rck5EPO4OhX5rU",
+  "id": "UgxY-8gZC45sEDkS0BV4AaABAg",
+
+  "snippet": {
+    "videoId": "g8EBvmaB7_w",
+    "topLevelComment": {
+      "kind": "youtube#comment",
+      "etag": "pkZnC2DgDX1TovDfIMe6HXBmV5E",
+      "id": "UgxY-8gZC45sEDkS0BV4AaABAg",
+      "snippet": {
+        "videoId": "g8EBvmaB7_w",
+        "textDisplay": "kocham Japonię.",
+        "textOriginal": "kocham Japonię.",
+        "authorDisplayName": "Maiki",
+        "authorProfileImageUrl": "https://yt3.ggpht.com/ytc/AL5GRJUsmXA8QVmZPZM_6zuzRIqM_zPA1pPXeCS2MFpJ=s48-c-k-c0x00ffffff-no-rj",
+        "authorChannelUrl": "http://www.youtube.com/channel/UCJ7HOFRrH_v-jHqpSVIK0bQ",
+        "authorChannelId": { "value": "UCJ7HOFRrH_v-jHqpSVIK0bQ" },
+        "canRate": "True",
+        "viewerRating": "none",
+        "likeCount": 0,
+        "publishedAt": "2023-01-06T19:02:56Z",
+        "updatedAt": "2023-01-06T19:02:56Z"
+      }
+    },
+    "canReply": "True",
+    "totalReplyCount": 0,
+    "isPublic": "True"
+  }
+}
