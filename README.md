@@ -6,6 +6,23 @@ Startup idea, aiming polish content creators for easier comments sentiment evalu
 
 The problem was that as the project was targeted for polish youtubers (as model is now trained only for polish language, as I thought that there's a niche for that), and they are hard to contact with if you do not have an audience. 
 
+## Demo
+
+```mermaid
+sequenceDiagram
+    User->>+Frontend: Resource URL
+    Frontend->>+Backend: Video ID
+    Backend ->>+Youtube API: GET /{id}/comments
+    Youtube API->>-Backend: comments
+    Backend ->>+Model: POST /sentiment-analysis
+    Model ->>-Backend: analyzed comments
+    Backend ->>-Frontend: analyzed comments + ratio
+    Frontend ->>-User: analysis
+```
+*Diagram on how things work*
+
+![gif](app.gif)
+
 ## Technologies used
 
 Using pyenv, as tensorflow doesn't have stable version for python version > 3.10.9
@@ -39,23 +56,6 @@ Simple app allowing users to log in using Google or preview as guest. Using Mate
 
 ### Deployment
 To simplify deployment process used Docker Compose and nginx.
-
-## Demo
-
-![gif](app.gif)
-
-```mermaid
-sequenceDiagram
-    User->>+Frontend: Resource URL
-    Frontend->>+Backend: Video ID
-    Backend ->>+Youtube API: GET /{id}/comments
-    Youtube API->>-Backend: comments
-    Backend ->>+Model: POST /sentiment-analysis
-    Model ->>-Backend: analyzed comments
-    Backend ->>-Frontend: analyzed comments + ratio
-    Frontend ->>-User: analysis
-```
-*Diagram on how things work*
 
 ## TBD
 App is working as I envisioned it, however it still have some minor flaws and issues. Things that can be improved:
