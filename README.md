@@ -19,12 +19,21 @@ I learned so much doing this project that I know the next one will be better.
 ## Demo
 
 Gif showing how app is working:
-![gif](readme/app.gif)
+![gif](app.gif)
 
 Diagram on how things work:
-![diagram](readme/diagram.png)
-
-It was hosted under [this link ](www.commentary.cc), however for saving money purposes I will (or torn it down by the end of March 2023).
+```mermaid
+sequenceDiagram
+    User->>+Frontend: Resource URL
+    Frontend->>+Backend: Video ID
+    Backend ->>+Youtube API: GET /{id}/comments
+    Youtube API->>-Backend: comments
+    Backend ->>+Model: POST /sentiment-analysis
+    Model ->>-Backend: analyzed comments
+    Backend ->>-Frontend: analyzed comments + ratio
+    Frontend ->>-User: analysis
+```
+It was hosted under [this link](www.commentary.cc), however for saving money purposes I will (or torn it down by the end of March 2023).
 
 ## Conclusion
 I don't consider it a failure or waste of time. I had a great time and learned much more than I expected. 
