@@ -42,8 +42,11 @@ To simplify deployment process used Docker Compose and nginx.
 
 ## Demo
 
-![gif](app.gif)
-*Gif showing how app is working*
+<!-- ![gif](app.gif) -->
+<p align="center">
+  <img src="app.gif" alt="animated" />
+<em>Gif showing how app is working</em>
+</p>
 
 ```mermaid
 sequenceDiagram
